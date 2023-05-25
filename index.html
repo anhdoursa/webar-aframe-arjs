@@ -58,24 +58,14 @@
           id="gltf"
           gltf-model="./models/vivi4.glb"
               scale="100 100 100"
-              position="50 0 -200"
+              position="50 0 -300"
           >
           </a-entity>
       </a-nft>
 
 
-      <a-entity light="type: ambient; intensity: 1;"></a-entity>
-      <a-light type="directional"
-               light="castShadow: true;
-                      shadowMapHeight: 1024;
-                      shadowMapWidth: 1024;
-                      shadowCameraLeft: -7;
-                      shadowCameraRight: 5;
-                      shadowCameraBottom: -5;
-                      shadowCameraTop: 5;"
-               id="light"
-               target="girl"
-               position="-5 3 1.5"></a-light>
+      <a-entity light="type: ambient; intensity: 3;"></a-entity>
+      
       <!-- static camera that moves according to the device movemenents -->
       <a-entity camera>
       </a-entity>
